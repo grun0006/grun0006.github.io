@@ -4,16 +4,22 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Dashboard</title>
+    <link rel="stylesheet" href="resources/css/main.css">
 </head>
 <body>
-    <nav>
-        <ul>
-            <a href="index.html">Home</a>
-            <a href="dashboard.html">Dashboard</a>
-            <a href="profile.html">Profile</a>
-            <a href="faq.html">FAQ</a>
-            <a href="blog.html">Blog</a>
-        </ul>
-    </nav>
+    <div class="sticky-header">
+        <button class="button" onclick="location.href='index.html'" style="margin-right: 10px;">Home</button>
+        <button class="button" onclick="location.href='dashboard.html'" style="background-color: darkgray; margin-right: 10px;">Dashboard</button>
+        <button class="button" onclick="location.href='profile.html'" style="margin-right: 10px;">Profile</button>
+        <button class="button" onclick="location.href='faq.html'" style="margin-right: 10px;">FAQ</button>
+        <button class="button" onclick="location.href='blog.html'" style="margin-right: 10px;">Blog</button>
+    </div>
+    <div class="sidebar">
+        <button class="button" onclick="location.href='https:/hz.nl/uploads/documents/1.4-Over-de-HZ/1.4.3.-Regelingen-en-documenten/OERS/2023-2024/Juli/OER-HZ-Bacheloropleidingen-voltijd-2023-2024-DEF-versie-20240412.pdf'" style="margin-bottom: 10px; width: 100px; height: 100px;">HZ HBO-ICT Course and Examination Regulations</button><br>
+        <button class="button" onclick="location.href='https:/oer.hz.nl/a37f2fd2-8b35-44ce-800a-c5abe33735aa'" style="margin-bottom: 10px; width: 100px; height: 100px;">Implementation Regulations</button><br>
+        <button class="button" onclick="location.href='https:/glaze-donut-5a5.notion.site/PCO1en-Your-Showcase-Website-7bc8c340f66047d0b49b83e8dc44ba23'" style="margin-bottom: 10px; width: 100px; height: 100px;">Learn environment</button><br>
+        <button class="button" onclick="location.href='https:/hz.osiris-student.nl/voortgang'" style="margin-bottom: 10px; width: 100px; height: 100px;">MyHZ study progress</button><br>
+        <button class="button" onclick="location.href='https:/github.com/HZ-HBO-ICT'" style="margin-bottom: 10px; width: 100px; height: 100px;">GitHub environment</button><br>
+    </div>
 </body>
 </html>
