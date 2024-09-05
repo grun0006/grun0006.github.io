@@ -6,7 +6,6 @@
     position: sticky;
     top: 0;
     z-index: 100;
-    margin-left: 600px;
   }
 
 .button {
@@ -18,4 +17,14 @@
     position: fixed;
     left: 0;
     margin-top: 200px;
+}
+
+body {
+  text-align: center;
+}
+
+article {
+  margin-left: 420px;
+  position: fixed;
+  width: 50%;
 }
