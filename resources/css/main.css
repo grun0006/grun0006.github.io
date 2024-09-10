@@ -28,6 +28,10 @@
 
 body {
   text-align: center;
+  background-image: linear-gradient(to bottom right, rgb(255, 255, 255), rgb(113, 113, 113));
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
 }
 
 article {
